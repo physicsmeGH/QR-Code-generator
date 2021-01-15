@@ -291,6 +291,10 @@ class QrCode final {
 		int minVersion=1, int maxVersion=40, int mask=-1, bool boostEcl=true);  // All optional parameters
 	
 	
+
+		  /*Returns the modules of the qr code */
+	public: std::vector<std::vector<bool>> getModules() const;
+
 	
 	/*---- Instance fields ----*/
 	

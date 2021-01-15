@@ -384,6 +384,10 @@ bool QrCode::getModule(int x, int y) const {
 	return 0 <= x && x < size && 0 <= y && y < size && module(x, y);
 }
 
+std::vector<std::vector<bool>> QrCode::getModules() const {
+	return modules;
+}
+
 
 std::string QrCode::toSvgString(int border) const {
 	if (border < 0)
