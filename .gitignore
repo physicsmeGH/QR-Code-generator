@@ -6,3 +6,5 @@
 /cpp/.deps
 /cpp/.vs/qr_gen_cpp/v16
 /cpp/Debug
+/cpp/x64/Debug/qr_gen_cpp.tlog
+/cpp/x64/Debug
